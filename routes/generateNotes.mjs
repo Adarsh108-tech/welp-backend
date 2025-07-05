@@ -2,6 +2,7 @@ import express from 'express';
 import { generateNotesForSyllabus } from '../services/openaiService.mjs';
 import { createPdfFromNotes } from '../services/pdfService.mjs';
 
+
 const router = express.Router();
 
 function parseSyllabus(syllabus) {
