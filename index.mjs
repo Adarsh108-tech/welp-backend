@@ -9,6 +9,9 @@ import http from 'http';
 import mongoose from 'mongoose';
 import { initSocket } from './socket.mjs';
 import generateNotesRoutes from './routes/generateNotes.mjs';
+import dotenv from 'dotenv';
+dotenv.config();
+
 
 const app = express();
 const PORT = 5000;
